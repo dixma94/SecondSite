@@ -1,0 +1,227 @@
+*{
+	box-sizing: border-box;
+}
+img{
+	max-width:  100%;
+}
+body{
+	margin: 0px;
+
+}
+main{
+	width: 100%;
+	max-width: 1308px;
+	padding: 0px 46px;
+	padding-bottom: 0px;
+	margin: 0 auto;
+
+}
+header{
+	width: 100%;
+	height: 511px;
+	max-width: 1308px;
+	margin: 0 auto;
+	padding-left: 45px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #111C1A;
+
+}
+.header__Navigationlist{
+	display: flex;
+	list-style: none;
+	margin-top: 30px;
+	padding: 0px;
+}
+.NavigationList_Item:not(:first-child){
+	margin-left: 30px;
+}
+.NavigationList_Item a{
+	text-decoration: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 156.9%;
+	/* or 19px */
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.header__Content-Wrapper{
+	margin-top: 85px;
+	width: 450px;
+}
+.header__Content{
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 137.4%;
+	/* or 55px */
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.header__DonateButton{
+	margin-top: 40px;
+	width: 110px;
+	height: 42px;
+	padding: 0px;
+    border-width: 2px;
+    border-color: #FFFFFF;
+	background-color: #FFFFFF;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 125.9%;
+	/* or 16px */
+	text-align: center;
+	letter-spacing: 0.17em;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.header__Title-container{
+	margin-top: 30px;
+	display: flex;
+	justify-content: right;
+}
+.header__Title-container__Letter{
+	width: 35px;
+    background-color: #FFFFFF;
+    font-family: Zilla Slab Highlight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    /* line-height: 156.9%; */
+    letter-spacing: 0.175em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.header__Title-container__Tittle{
+	width: 115px;
+	margin-left: 5px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 132.4%;
+	/* or 20px */
+
+	letter-spacing: 0.175em;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+.header__Left-container__Image{
+	display: flex;
+	margin-top: 58px;
+}
+.header__sideimage-container{
+	display: flex;
+}
+.Main__TagBar-container{
+	margin-top: 30px;
+}
+.Main_TagBarList{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+
+}
+.TagBarList_Item{
+	padding: 0px 15px;
+}
+.TagBarList_Item a{
+
+	text-decoration: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 202.5%;
+	color: #1C2828;
+}
+.Line{
+	width: 100%;
+	height: 1px;
+	margin-top: 18px;
+	background-color: rgba(28, 40, 40, 0.5);
+}
+.Main__Wrapper{
+	margin-top: 75px;
+	display: flex;
+	justify-content: space-between;
+}
+.Main__News-Container{
+	width: calc(70% - 20px);
+}
+.Main__title{
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 147.4%;
+	/* or 37px */
+
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: rgba(28, 40, 40, 1);
+}
+.Main__News-List{
+	list-style: none;
+	margin-top: 20px;
+	padding: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.News-List__Item{
+	position: relative;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+.News-List__Item__Content-wrapper{
+	position: absolute;
+	margin: 21px 22px;
+}
+.News-List__Item__Title-wrapper{
+	display: flex;
+	justify-content: left;
+}
+.News-List__Item__Tag{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 138.5%;
+	/* identical to box height, or 14px */
+	letter-spacing: 0.135em;
+	text-transform: uppercase;
+	color: rgba(228, 186, 76, 1);
+
+}
+.News-List__Item__Date{
+	margin-left: 8px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 138.5%;
+	color: rgba(255, 255, 255, 1) ;
+
+}
+.News-List__Item__Content{
+	margin-top: 10px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 138.5%;
+	/* or 21px */
+	color: rgba(255, 255, 255, 0.9);
+}
